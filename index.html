@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Gregs List – CSS Layout Example</title>
+<!-- Responsive viewport tag, tells small screens that it's responsive -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="nav-bar">
+	    <a class="logo">
+	      <h1>Gregs List</h1>
+	    </a>
+	    <nav class="top-nav" role="navigation">
+	      <a href="#" class="nav-link">Post</a>
+	      <a href="#" class="nav-link">Account</a>
+	    </nav>
+  	</div>
+  	<section class="search-section">
+	    <form action="#">
+	      <label for="search" class="search-label">Search Jobs</label>
+	      <input type="text" id="search-field" class="search-field" placeholder="Search Software Jobs">
+	      <input type="image" role="button" class="search-button" src="img/magnifying-glass.png" alt="Search">
+	    </form>
+  	</section>
+  	<nav class="pagination">
+	    <a class="pagination-button">&lt; prev</a>
+	    <span class="pagination-display">1 to 100 of 123</span>
+	    <a class="pagination-button">next &gt;</a>
+  	</nav>
+	<main>
+	    <ul class="list">
+	      <li class="list-item">
+	        <span class="list-item-date">22. April</span>
+	        <a href="#" class="list-item-title">Design Office Manager Director</a>
+	        <span class="list-item-location">Berlin Neu-Köln</span>
+	      </li>
+	      <li class="list-item">
+	        <span class="list-item-date">21. Oktober</span>
+	        <a href="#" class="list-item-title">Frontend Developer Expert</a>
+	        <span class="list-item-location">Leipzig Reudnitz</span>
+	      </li>
+	      <li class="list-item">
+	        <span class="list-item-date">11. November</span>
+	        <a href="#" class="list-item-title">Senior Coffee Maker / Espresso first</a>
+	        <span class="list-item-location">Coffee bar</span>
+	      </li>
+	    </ul>
+  </main>
+</body>
+</html>
